@@ -15,6 +15,10 @@ h4{
   font-size: 16px;
 }
 
+h5{
+  text-align: center;
+}
+
 .w-100 {
   width: 100% !important;
   height: auto;
@@ -22,13 +26,13 @@ h4{
 }
 
 .row_logos{
-  background-color: #f9f9f9; 
+  background-color: #f9f9f9;
 }
 
 footer{
   background-color: #f9f9f9;
   margin-top: 30px;
-  text-align: center; 	
+  text-align: center;
 }
 
 .carousel-control-prev-icon {
@@ -39,8 +43,16 @@ footer{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.col-sm{
+.col-md-4{
 	text-align: center;
+}
+
+.col-sm{
+  text-align: center;
+}
+
+.tabela_reviews{
+  text-align: center;
 }
 
 .texto_logos{
@@ -56,6 +68,78 @@ footer{
 	padding-bottom: 15px;
 }
 
+.p15top{
+	padding-top: 15px;
+}
+
 .product-section{
 	padding-top: 40px;
+}
+
+
+
+
+  <!-- Criticas e Opinião -->
+body{margin-top:20px;}
+
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
 }
