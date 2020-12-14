@@ -1,0 +1,61 @@
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h3{
+  font-size: 20px;
+
+}
+
+h4{
+  font-size: 16px;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: auto;
+  margin: auto;
+}
+
+.row_logos{
+  background-color: #f9f9f9; 
+}
+
+footer{
+  background-color: #f9f9f9;
+  margin-top: 30px;
+  text-align: center; 	
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.col-sm{
+	text-align: center;
+}
+
+.texto_logos{
+    padding-top: 1rem;
+    font-size: 0.8725rem;
+    line-height: 1rem;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.p30{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.product-section{
+	padding-top: 40px;
+}
