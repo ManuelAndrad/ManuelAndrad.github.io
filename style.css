@@ -25,6 +25,13 @@ h5{
   margin: auto;
 }
 
+.h-200 {
+  width: 50% !important;
+  height: 70%;
+  margin: auto;
+}
+
+
 .row_logos{
   background-color: #f9f9f9;
 }
@@ -77,9 +84,19 @@ footer{
 }
 
 
+.titulo {
+  align-items: center;
+  text-align: center;
+  margin-top: 15px; font-size: 36px;
+   font-family: monospace;
+}
 
 
-  <!-- Criticas e Opinião -->
+.Texto {text-align:center;
+  margin-left: 470px;
+   margin-top: 20px}
+
+
 body{margin-top:20px;}
 
 .align-center {
