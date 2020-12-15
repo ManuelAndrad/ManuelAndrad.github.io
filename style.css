@@ -31,6 +31,10 @@ h5{
   margin: auto;
 }
 
+.topicos_footer a{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .row_logos{
   background-color: #f9f9f9;
